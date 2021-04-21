@@ -776,3 +776,167 @@ console.log("",res);
 // }
 
 
+
+// 46.Write a js program to count total number of negative elements in an array.
+
+
+    // var arr=[100]; //Declaring size of an array as 100
+    // var i, num, count=0;
+
+    // //Reads size and elements of array
+    //  num = prompt('Enter the size of arry: ');
+
+    // for(i=0; i<num; i++)
+    // {
+        
+    // arr[i]=prompt("Enter elements in array : ");
+    // }
+
+    // //Counts total number of negative elements
+    // for(i=0; i<num; i++)
+    // {
+    //     if(arr[i]<0)
+    //     {
+    //         count++; //couting negative elements
+    //     }
+    // }
+    // console.log("Total number of negative elements = ", count);
+
+    // 47.Write a js program to copy all elements from an array to another array.
+//     var first =  [1, 2, 3];
+// var second = [4, 5];
+ 
+// Array.prototype.push.apply(first, second);
+// console.log(first);
+
+// 48. Write a js program to insert an element in an array
+
+
+// function insertElement() {
+//     let array = [1, 2, 3, 4, 5];
+
+//     // index to add to
+//     let index = 3;
+
+//     // element that you want to add
+//     let element = 8;
+  
+//     array.splice(index, 0, element);
+//     console.log(array);
+// }
+
+// insertElement();
+
+
+// 49. Write a js program to delete an element from an array at specified position.
+
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+    
+//     for( var i = 0; i < arr.length; i++){ 
+    
+//         if ( arr[i] === 5) { 
+    
+//             arr.splice(i, 1); 
+//             console.log(arr);
+//         }
+    
+//     }
+
+// 50.Write a js program to count frequency of each element in an array.
+
+// const arr = [2,5,7,8,5,3,5,7,8,5,3,4,2,4,2,1,6,8,6];
+// const getFrequency = (array) => {
+//    const map = {};
+//    array.forEach(item => {
+//       if(map[item]){
+//          map[item]++;
+//       }else{
+//          map[item] = 1;
+//       }
+//    });
+//    return map;
+// };
+// console.log(getFrequency(arr));
+
+
+
+// 51.Write a js program to print all unique elements in the array.
+// arr = [2, 2, 2, 1, 3, 3, 3,3, 4, 5];
+// arr = arr.sort().filter((item,i)=>!(arr[i] == arr[i+1] || arr[i-1]==arr[i]));
+// this will remove all item which are repeating more then one
+// console.log(arr);
+
+//52 Write a js program to count total number of duplicate elements in an array.
+
+// function count() {
+//     array_elements = ["a", "b", "c", "d", "e", "a", "b", "c", "f", "g", "h", "h", "h", "e", "a"];
+
+//     array_elements.sort();
+
+//     var current = null;
+//     var cnt = 0;
+//     for (var i = 0; i < array_elements.length; i++) {
+//         if (array_elements[i] != current) {
+//             if (cnt > 0) {
+//                 console.log(current + ' comes --> ' + cnt + ' times<br>');
+//             }
+//             current = array_elements[i];
+//             cnt = 1;
+//         } else {
+//             cnt++;
+//         }
+//     }
+//     if (cnt > 0) {
+//         console.log(current + ' comes --> ' + cnt + ' times');
+//     }
+
+// }
+
+// count();
+
+// 53.Write a js program to delete all duplicate elements from an array.
+
+// function getUnique(array){
+//     var uniqueArray = [];
+    
+//     // Loop through array values
+//     for(i=0; i < array.length; i++){
+//         if(uniqueArray.indexOf(array[i]) === -1) {
+//             uniqueArray.push(array[i]);
+//         }
+//     }
+//     return uniqueArray;
+// }
+
+// var names = ["John", "Peter", "Clark", "Harry", "John", "Alice"];
+// var uniqueNames = getUnique(names);
+// console.log(uniqueNames); // Prints: ["John", "Peter", "Clark", "Harry", "Alice"]
+
+
+//54. Write a js program to merge two array to third array.
+
+// function merge_array(array1, array2) {
+//     var result_array = [];
+//     var arr = array1.concat(array2);
+//     var len = arr.length;
+//     var assoc = {};
+
+//     while(len--) {
+//         var item = arr[len];
+
+//         if(!assoc[item]) 
+//         { 
+//             result_array.unshift(item);
+//             assoc[item] = true;
+//         }
+//     }
+
+//     return result_array;
+// }
+
+
+// var array1 = [1, 2, 3];
+
+// var array2 = [2, 30, 1];
+
+// console.log(merge_array(array1, array2));
