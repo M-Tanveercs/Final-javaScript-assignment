@@ -528,3 +528,251 @@ console.log("",res);
 // (ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z')? 
 //     console.log("The character",ch,"is a alphabet."):
 //    console.log("The character",ch,"is a not alphabet.");
+
+//38. Write a js program to print day of week name using switch case.
+
+// var n=prompt("Enter number of a weekday");
+// var c=parseInt(n)
+// switch (c) {
+//   case 1:
+//     console.log("Friday");
+//      break;
+//      case 2:
+//     console.log("Saturday");
+//      break;
+//      case 3:
+//     console.log("Sunday");
+//      break;
+//      case 4:
+//     console.log("Monday");
+//      break;
+//      case 5:
+//     console.log("Tuesday");
+//      break;
+//      case 6:
+//     console.log("Wednesday");
+//      break;
+//      case 7:
+//     console.log("Thursday");
+//      break;
+//     default:
+//         console.log("Invalid Input");
+        
+// }
+
+//39. Write a js program print total number of days in a month using switch case.
+// var m=prompt("Enter The Month");
+// var c=parseInt(m)
+// switch(c){
+// case 1:
+//     console.log("31 days");
+//     break;
+//     case 1:
+//     console.log("31 days");
+//     break;
+//     case 2:
+//     console.log("28 or 29 days");
+//     break;
+//     case 3:
+//     console.log("31 days");
+//     break;
+//     case 4:
+//     console.log("30 days");
+//     break;
+//     case 5:
+//     console.log("31 days");
+//     break;
+//     case 6:
+//     console.log("30 days");
+//     break;
+//     case 7:
+//     console.log("31 days");
+//     break;
+//     case 8:
+//     console.log("31 days");
+//     break;
+//     case 9:
+//     console.log("30 days");
+//     break;
+//     case 10:
+//     console.log("31 days");
+//     break;
+//     case 11:
+//     console.log("30 days");
+//     break;
+//     case 12:
+//     console.log("31 days");
+//     break;
+// default:
+//     console.log("Invalid Input");
+    
+// } 
+
+//40. Write a js program to check whether an alphabet is vowel or consonant using switch case
+
+// var ch=prompt("Enter any character:")
+// switch(ch){
+//     case 'A':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'a':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'E':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'e':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'I':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'i':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'O':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'o':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'U':
+//     console.log("You Enter Vowel:");
+//     break;case 'u':
+//     console.log("You Enter Vowel:");
+//     break;
+//     default:
+//         console.log("You Enter consinent");
+// }
+
+//41. Write a js program to find maximum between two numbers using switch case.
+
+
+
+// var a=prompt("Enter the 1st number");
+// var b=prompt("Enter the 2nd number");
+// var c=parseInt(a);
+// var d=parseInt(b);
+// switch(c>d){
+//     case 1:
+//         console.log("Maximum number is",c);
+//         break;
+//         case 0:
+//             console.log("Maximum number is",d);  
+//             break;
+//             default:
+//                 console.log("Invalid input");
+// }
+
+// 42.Write a js program to check whether a number is even or odd using switch case.
+
+// var a=prompt("Enter the number");
+// var c=parseInt(a);
+// switch(c%2){
+//     case 0:
+//         console.log("even");
+//         break;
+//         case 1:
+//             console.log("odd");  
+// }
+
+// 43. Write a js program to check whether a number is positive, negative or zero using switch case
+
+// var a=prompt("Enter the number");
+// // var c=parseInt(a);
+// switch(a>0){
+//     case 1:
+//         console.log("postive");
+//         break;
+//         case 0:
+//        switch(a<0){
+//     case 1:
+//         console.log("negtive");
+//         break;
+//         case 0:
+//             console.log("zero");  
+//             break;
+// }
+// break; 
+// }
+
+//44. Write a js program to find roots of a quadratic equation using switch case.
+
+
+// let root1, root2;
+
+// take input from the user
+// let a = prompt("Enter the first number: ");
+// let b = prompt("Enter the second number: ");
+// let c = prompt("Enter the third number: ");
+
+// calculate discriminant
+// let discriminant = b * b - 4 * a * c;
+
+// condition for real and different roots
+// if (discriminant > 0) {
+//     root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+//     root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+
+    // result
+//     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+// }
+
+// // condition for real and equal roots
+// else if (discriminant == 0) {
+//     root1 = root2 = -b / (2 * a);
+
+    // result
+//     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+// }
+
+// if roots are not real
+// else {
+//     let realPart = (-b / (2 * a)).toFixed(2);
+//     let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
+
+    // result
+//     console.log(
+//     `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i`
+//   );
+// }
+
+
+//45.  Write a js program to create Simple Calculator using switch case.
+
+// let result;
+
+// take the operator input
+// const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+// const number1 = parseFloat(prompt('Enter first number: '));
+// const number2 = parseFloat(prompt('Enter second number: '));
+
+// switch(operator) {
+//     case '+':
+//          result = number1 + number2;
+//         console.log(`${number1} + ${number2} = ${result}`);
+//         break;
+
+//     case '-':
+//          result = number1 - number2;
+//         console.log(`${number1} - ${number2} = ${result}`);
+//         break;
+
+//     case '*':
+//          result = number1 * number2;
+//         console.log(`${number1} * ${number2} = ${result}`);
+//         break;
+
+//     case '/':
+//          result = number1 / number2;
+//         console.log(`${number1} / ${number2} = ${result}`);
+//         break;
+
+//     default:
+//         console.log('Invalid operator');
+//         break;
+// }
+
+
