@@ -377,3 +377,120 @@ console.log("",res);
 // } else {
 //     console.log("The character",ch,"is a Symbol."); 
 // } 
+
+
+
+//28. Write a js program to find cube of any number using function.
+// function cube(n){
+//     var res;
+//     res=n*n*n;
+//     return res;
+// }
+// var get_num;
+// get_num=prompt("Enter a number to find")
+// console.log(cube(get_num));
+
+//29. Write a js program to find diameter 2r, circumference 2pir and area pir*2 of circle using functions.
+
+// function diameter(){
+// var PI=3.14;
+//     var radius=prompt("Enter radius for diameter of circle")
+//     var diameter=2*radius;
+//     return diameter;
+
+// }
+
+// console.log("Diameter of circle",diameter());
+
+// function circumference(){
+//     var PI=3.14;
+//     var radius=prompt("Enter radius for diameter of circle")
+//     var circumference=2*PI*radius;
+//     return circumference;
+// }
+// console.log("Circumference of circle",circumference());
+
+// function area(){
+//     var PI=3.14;
+//     var radius=prompt("Enter radius for diameter of circle")
+
+//     var area=PI*radius*radius;
+//     return area;
+
+// }
+// console.log("Area of circle",area());
+
+//30. Write a js program to find maximum and minimum between two numbers using functions.
+
+// function max(a,b){
+//     var max;
+//        max=a;
+//     if (b>max) {
+//         max=b;
+//     return max;
+//     }
+// }
+// var a=prompt("Enter first number");
+// var b=prompt("Enter second number");
+// console.log("maximum number is:",max(a,b));
+
+// 31.Write a js program to check whether a number is even or odd using functions
+// function to_find_ev_od(n){
+  
+// if (n%2==0) {
+//     console.log(n,"is even");
+// } else {
+//     console.log(n,"is odd");
+// }
+// }
+// var n=prompt("Enter an number");
+// to_find_ev_od(n)
+
+// 32.Write a js program to check whether a number is prime, Armstrong or perfect number using functions.
+
+
+// function cb(num){
+
+// var choice=prompt("Enter 1 for prime , 2 for Armstrong , 3 for perfect number");
+// var c=parseInt(choice)
+// switch(c){
+//     case 1:
+//     var c,p=1;
+//     for(c=2;c<=num/2;c++)
+//     if(num%c==0)
+//     {
+//         p=0;
+//         break;
+//     }
+//     if(p==1)
+//     console.log(num,"is a prim number");
+// break;
+// case 2:
+//     var origNum, rem,res=0;
+//     origNum=num;
+//     while(origNum!=0){
+//         rem=origNum%10;
+//         res+=rem*rem*rem;
+//         origNum/=10;
+//     }
+//     if(res==num)
+//     console.log(num,"is Armstrongn number");
+//     break;
+//     case 3:
+//         var sum=0;
+//         for(var i=1;i<num;i++)
+//         {
+//             if(num%i==0)
+//             sum=sum+i;
+
+//         }
+//         if(sum==num)
+//         console.log(num,"is a perfect number");
+//         break;
+// default:
+//     console.log("plz enter valid number");
+// }
+// }
+// var b=prompt("Enter a number:");
+// var c=parseInt(b)
+// cb(c)
