@@ -494,3 +494,37 @@ console.log("",res);
 // var b=prompt("Enter a number:");
 // var c=parseInt(b)
 // cb(c)
+
+
+
+// 33.Write a js program to find maximum between two numbers using conditional operator.
+// var max;
+// var a=prompt("Enter first number");
+// var b=prompt("Enter second number");
+// max=a>b?(a>c?a:c)
+//     console.log("The maximum number is",max);
+
+// 34.Write a js program to find maximum between three numbers using conditional operator.
+// var max;
+// var a=prompt("Enter first number");
+// var b=prompt("Enter second number");
+// var c=prompt("Enter third number");
+// max=a>b?(a>c?a:c):(b>c?b:c)
+//     console.log("The maximum number is",max);
+// 35. Write a js program to check whether a number is even or odd using conditional operator.
+
+// var n ;
+// n=prompt("Enter a number");
+// (n%2==0?console.log("Even"):console.log("Odd"));
+
+//36. Write a js program to check whether year is leap year or not using conditional operator.
+
+// var y=prompt("Enter a year");
+// (y%4==0? console.log(y,"is a leap year"):console.log(y,"is not a leap year")) 
+
+// 37.Write a js program to check whether character is an alphabet or not using conditional operator.
+
+// var ch=prompt("Enter any charater");
+// (ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z')? 
+//     console.log("The character",ch,"is a alphabet."):
+//    console.log("The character",ch,"is a not alphabet.");
