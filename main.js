@@ -222,3 +222,60 @@ console.log("",res);
 //   var cyl = new Cylinder(7, 4);
 //   // Volume of the cylinder with four decimal places.
 //   console.log('volume =', cyl.Volume().toFixed(4));
+
+// 12.Write a js program to print all odd number between 1 to 100.
+
+// for(var i=1;i<=100;i++)
+// if(i%2!=0)
+// console.log("",i); 
+
+// 13. Write a js program to find sum of all natural numbers between 1 to n
+// const number = parseInt(prompt('Enter a positive integer: '));
+
+// let sum = 0;
+// for (let i = 1; i <= number; i++) {
+//     sum += i;
+// }
+
+// console.log('The sum of natural numbers:', sum);
+
+//14. Write a js program to find sum of all even numbers between 1 to n.
+// var sum=0;
+// const number = parseInt(prompt('Enter a number: '));
+// for(var i=1;i<=number;i++)
+// if(i%2==0)
+// sum += i;
+// console.log("",sum); 
+
+// 15. Write a js program to find sum of all odd numbers between 1 to n.
+// var sum=0;
+// const number = parseInt(prompt('Enter a number: '));
+// for(var i=1;i<=number;i++)
+// if(i%2!=0)
+// sum += i;
+// console.log("",sum); 
+
+// 16.Write a js program to print multiplication table of any number
+// var tab ,c;
+// tab=prompt("Enter number for table");
+// for(c=1;c<=10;c++)
+// console.log("",tab,"*",c,"=",tab*c);
+
+// 17.Write a js program to count number of digits in a number.
+
+// function digits_count(n) {
+//     var count = 0;
+//     if (n >= 1) ++count;
+  
+//     while (n / 10 >= 1) {
+//       n /= 10;
+//       ++count;
+//     }
+  
+//     return count;
+//   }
+  
+//   console.log(digits_count(12112));
+  
+//   console.log(digits_count(457));
+
